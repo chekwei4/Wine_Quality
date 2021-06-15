@@ -12,7 +12,7 @@ Data set contains physicochemical of 1599 records of red wines. Initiially, data
 Project has turned this into a classification problem, by setting an arbitrary cutoff for [quality] at 7 or higher getting classified as 'good/1' and the remainder as 'bad/0'.
 
 # Objective
-Aim to detect the few good wines among an imbalanced dataset using various sampling methods belows and observe which yield better recall score for minority class. 
+Aim to detect the few good wines among an imbalanced dataset by using various sampling methods below and observe which yield better recall and F1 score for minority class. 
 
 1. Random Over Sampling
 
@@ -189,7 +189,7 @@ Adaptive Synthetic Sampling Approach
 
 The essential idea of ADASYN is to produce an appropriate number of synthetic alternatives for each observation belonging to the minority class. The concept of “appropriate number” here depends on how hard it is to learn the original observation. In particular, an observation from the minority class is “hard to learn” if many examples from the majority class with features similar to that observation exist
 
-(credit: https://medium.com/quantyca/oversampling-and-undersampling-adasyn-vs-enn-60828a58db39)
+<em>(credit: https://medium.com/quantyca/oversampling-and-undersampling-adasyn-vs-enn-60828a58db39)</em>
 
 <p  align="center">
     <img width=650, height=650, src="./images/ADASYN.png">
