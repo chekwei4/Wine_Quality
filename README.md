@@ -165,12 +165,11 @@ Here, we are doing 2 things in a pipeline.
 
 What we did here was that increasing minority with SMOTE, and then decreasing majority with random under sampling. 
 
-| Steps                        | Cnts of class labels |   |   |   |
-|---------------------------------------|-------------------|---|---|---|
-| Raw train data                        | {0: 1108, 1: 171} |   |   |   |
-| After SMOTE                           | {0: 1108, 1: 775} |   |   |   |
-| After SMOTE and random under sampling | {0: 968, 1: 775}  |   |   |   |
-|                                       |                   |   |   |   |
+| Steps                        | Cnts of class labels |  
+|---------------------------------------|-------------------|
+| Raw train data                        | {0: 1108, 1: 171} |
+| After SMOTE                           | {0: 1108, 1: 775} |
+| After SMOTE and random under sampling | {0: 968, 1: 775}  |
 
 Performance as below:
 
