@@ -227,7 +227,7 @@ Eg. when the model learns better at predicting good wines, they will do worse at
 # Future enhancement 
 Project could try to improve and work on below: 
 
-1. other classification models to achieve better results
+1. other classification models to achieve better results (eg. bank frauds, cancer patients' data, terroist identifications)
 
 2. much larger dataset to show drastic difference in results for the sampling techniques
 
