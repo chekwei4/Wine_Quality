@@ -34,7 +34,7 @@ Key analysis:
 
 2. Features are in different scales, hence scaling is required. 
 
-![image info](./images/scale.png)
+![image info](./images/scale_1.png)
 
 3. Good correlation between alcohol and quality
 
