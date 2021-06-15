@@ -209,14 +209,14 @@ After performing ADASYN sampling, results as below:
 For recall of the good wine predictions, it improves further now to 80%. This is the best sampling technique so far for recall, with 37/46 good wines correctly classfied in the test dataset.
 
 # Overall Comparison
-| Sampling techniques          | F1 Score - 0/Bad Wine | F1 Score - 0 - 1/Good Wine | Recall for Good Wine |   |
-|------------------------------|------------------------|-----------------------------|----------------------|---|
-| Baseline                     | 0.93                   | 0.34                        | 0.24                 |   |
-| Random Over Sampler          | 0.89                   | 0.54                        | 0.74                 |   |
-| SMOTETomek                   | 0.88                   | 0.55                        | 0.80                 |   |
-| SMOTE + Random Under Sampler | 0.88                   | 0.52                        | 0.72                 |   |
-| ADASYN                       | 0.87                   | 0.54                        | 0.80                 |   |
-|                              |                        |                             |                      |   |
+| Sampling techniques          | F1 Score - 0/Bad Wine | F1 Score - 0 - 1/Good Wine | Recall for Good Wine |   
+|------------------------------|------------------------|-----------------------------|--------------------|
+| Baseline                     | 0.93                   | 0.34                        | 0.24               |   
+| Random Over Sampler          | 0.89                   | 0.54                        | 0.74               |   
+| SMOTETomek                   | 0.88                   | 0.55                        | 0.80               |   
+| SMOTE + Random Under Sampler | 0.88                   | 0.52                        | 0.72               |   
+| ADASYN                       | 0.87                   | 0.54                        | 0.80               |   
+
 
 # Conclusion
 ADASYN and SMOTETomek seem to be able to populate samples which allow our model to train better and learn better on the minority class aka good wines, hence producing better results at identify good wines in the test dataset.
