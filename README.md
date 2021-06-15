@@ -30,21 +30,20 @@ Key analysis:
 
 1. Quality is dominated by values 5 and 6
 
-<< insert pic >>
+![image info](./images/quality_cnts.png)
 
+2. Features are in different scales, hence scaling is required. 
 
-2. . Features are in different scales, hence scaling is required. 
-
-<< insert pic >>
+![image info](./images/scale.png)
 
 3. Good correlation between alcohol and quality
 
-<< insert pic >>
+![image info](./images/alcohol_quality.png)
 
 4. High values of sulphates, alchohol, citric acid do lead to better quality  
 
-<< insert pic >>
+![image info](./images/barplot_1.png)
 
 5. Better quality wines are mostly above 0.2, 0.4 citric acid, with lower pH and higher fixed acidity
 
-<< insert pic >>
+![image info](./images/newplot.png)
