@@ -22,8 +22,29 @@ Aim to detect the few good wines among an imbalanced dataset using various sampl
 
 4. ADASYN
 
-Logistic regression model is used throughout 
+Logistic regression model is used throughout the project.  
 
 # Exploratory Data Analysis
 
+Key analysis: 
 
+1. Quality is dominated by values 5 and 6
+
+<< insert pic >>
+
+
+2. . Features are in different scales, hence scaling is required. 
+
+<< insert pic >>
+
+3. Good correlation between alcohol and quality
+
+<< insert pic >>
+
+4. High values of sulphates, alchohol, citric acid do lead to better quality  
+
+<< insert pic >>
+
+5. Better quality wines are mostly above 0.2, 0.4 citric acid, with lower pH and higher fixed acidity
+
+<< insert pic >>
